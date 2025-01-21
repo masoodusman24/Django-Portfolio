@@ -76,7 +76,6 @@ portfolio-website/
 |   |-- static/
 |   |-- models.py
 |   |-- views.py
-|-- requirements.txt
 |-- README.md
 ```
 
