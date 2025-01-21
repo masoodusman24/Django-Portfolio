@@ -19,13 +19,13 @@ This is a Django-based portfolio website that showcases personal and professiona
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+https://github.com/masoodusman24/Django-Portfolio.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd portfolio-website
+   cd myapp
    ```
 
 3. Create and activate a virtual environment:
@@ -33,12 +33,6 @@ This is a Django-based portfolio website that showcases personal and professiona
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-
-4. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
    ```
 
 5. Apply migrations:
