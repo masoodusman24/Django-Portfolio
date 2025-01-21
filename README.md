@@ -68,7 +68,7 @@ This is a Django-based portfolio website that showcases personal and professiona
 ## Directory Structure
 
 ```
-portfolio-website/
+myapp/
 |-- manage.py
 |-- portfolio/
 |   |-- migrations/
