@@ -36,3 +36,18 @@ window.addEventListener('scroll', () => {
     let footer = document.querySelector('footer');
     footer.classList.toggle('show-animate', window.innerHeight + window.scrollY >= document.scrollingElement.scrollHeight);
 });
+
+function sendMessage(event) {
+    event.preventDefault();
+    let formData = new FormData(document.getElementById("contactForm"));
+
+    fetch("/", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert(data.message);
+    })
+    .catch(error => console.error("Error:", error));
+}
