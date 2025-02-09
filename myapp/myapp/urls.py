@@ -21,4 +21,5 @@ from . import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.home, name="index"),
+    path("send-email/", views.send_email, name="send_email"),
 ]
