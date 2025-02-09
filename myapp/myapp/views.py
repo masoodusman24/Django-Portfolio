@@ -15,12 +15,11 @@ def send_email(request):
         subject = f"Message from {name}"
         email_message = f"Name: {name}\nEmail: {sender_email}\n\nMessage:\n{message}"
 
-        # Send email (Using EMAIL_HOST_USER as sender)
         send_mail(
             subject,
             email_message,
-            settings.EMAIL_HOST_USER,  # Use your configured email
-            ["masoodusman24@gmail.com"],  # Replace with your actual email
+            settings.EMAIL_HOST_USER,
+            ["masoodusman24@gmail.com"],
             fail_silently=False,
         )
 
